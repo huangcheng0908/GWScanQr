@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3D91E41F5D4F9200007BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D91E31F5D4F9200007BCF /* main.m */; };
+		FA3D91E71F5D4F9200007BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D91E61F5D4F9200007BCF /* AppDelegate.m */; };
+		FA3D91EA1F5D4F9200007BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D91E91F5D4F9200007BCF /* ViewController.m */; };
+		FA3D91ED1F5D4F9200007BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3D91EB1F5D4F9200007BCF /* Main.storyboard */; };
+		FA3D91EF1F5D4F9200007BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3D91EE1F5D4F9200007BCF /* Assets.xcassets */; };
+		FA3D91F21F5D4F9200007BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3D91F01F5D4F9200007BCF /* LaunchScreen.storyboard */; };
+		FA3D91FD1F5D4F9200007BCF /* GWScanQrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D91FC1F5D4F9200007BCF /* GWScanQrTests.m */; };
+		FA3D92081F5D4F9200007BCF /* GWScanQrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D92071F5D4F9200007BCF /* GWScanQrUITests.m */; };
+		FA3D921E1F5D4FA600007BCF /* GWQrFlashlightsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D92171F5D4FA600007BCF /* GWQrFlashlightsManager.m */; };
+		FA3D921F1F5D4FA600007BCF /* GWScanCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D92191F5D4FA600007BCF /* GWScanCodeManager.m */; };
+		FA3D92201F5D4FA600007BCF /* GWScanQRvC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D921C1F5D4FA600007BCF /* GWScanQRvC.m */; };
+		FA3D92211F5D4FA600007BCF /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA3D921D1F5D4FA600007BCF /* SGQRCode.bundle */; };
+		FA3D92241F5D511500007BCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D92231F5D511500007BCF /* UIKit.framework */; };
+		FA3D92261F5D511B00007BCF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D92251F5D511B00007BCF /* AVFoundation.framework */; };
+		FA3D92281F5D512100007BCF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3D92271F5D512100007BCF /* ImageIO.framework */; };
+		FA3D922B1F5D518000007BCF /* GWQrVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D922A1F5D518000007BCF /* GWQrVc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3D91F91F5D4F9200007BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3D91D71F5D4F9200007BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3D91DE1F5D4F9200007BCF;
+			remoteInfo = GWScanQr;
+		};
+		FA3D92041F5D4F9200007BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3D91D71F5D4F9200007BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3D91DE1F5D4F9200007BCF;
+			remoteInfo = GWScanQr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3D91DF1F5D4F9200007BCF /* GWScanQr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWScanQr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3D91E31F5D4F9200007BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA3D91E51F5D4F9200007BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA3D91E61F5D4F9200007BCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA3D91E81F5D4F9200007BCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA3D91E91F5D4F9200007BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA3D91EC1F5D4F9200007BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3D91EE1F5D4F9200007BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3D91F11F5D4F9200007BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3D91F31F5D4F9200007BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3D91F81F5D4F9200007BCF /* GWScanQrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWScanQrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3D91FC1F5D4F9200007BCF /* GWScanQrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWScanQrTests.m; sourceTree = "<group>"; };
+		FA3D91FE1F5D4F9200007BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3D92031F5D4F9200007BCF /* GWScanQrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWScanQrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3D92071F5D4F9200007BCF /* GWScanQrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWScanQrUITests.m; sourceTree = "<group>"; };
+		FA3D92091F5D4F9200007BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3D92161F5D4FA600007BCF /* GWQrFlashlightsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWQrFlashlightsManager.h; sourceTree = "<group>"; };
+		FA3D92171F5D4FA600007BCF /* GWQrFlashlightsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWQrFlashlightsManager.m; sourceTree = "<group>"; };
+		FA3D92181F5D4FA600007BCF /* GWScanCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWScanCodeManager.h; sourceTree = "<group>"; };
+		FA3D92191F5D4FA600007BCF /* GWScanCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWScanCodeManager.m; sourceTree = "<group>"; };
+		FA3D921A1F5D4FA600007BCF /* GWScanQr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWScanQr.h; sourceTree = "<group>"; };
+		FA3D921B1F5D4FA600007BCF /* GWScanQRvC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWScanQRvC.h; sourceTree = "<group>"; };
+		FA3D921C1F5D4FA600007BCF /* GWScanQRvC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWScanQRvC.m; sourceTree = "<group>"; };
+		FA3D921D1F5D4FA600007BCF /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
+		FA3D92231F5D511500007BCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA3D92251F5D511B00007BCF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA3D92271F5D512100007BCF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FA3D92291F5D518000007BCF /* GWQrVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWQrVc.h; sourceTree = "<group>"; };
+		FA3D922A1F5D518000007BCF /* GWQrVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWQrVc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3D91DC1F5D4F9200007BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D92281F5D512100007BCF /* ImageIO.framework in Frameworks */,
+				FA3D92261F5D511B00007BCF /* AVFoundation.framework in Frameworks */,
+				FA3D92241F5D511500007BCF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3D91F51F5D4F9200007BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3D92001F5D4F9200007BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3D91D61F5D4F9200007BCF = {
+			isa = PBXGroup;
+			children = (
+				FA3D91E11F5D4F9200007BCF /* GWScanQr */,
+				FA3D91FB1F5D4F9200007BCF /* GWScanQrTests */,
+				FA3D92061F5D4F9200007BCF /* GWScanQrUITests */,
+				FA3D91E01F5D4F9200007BCF /* Products */,
+				FA3D92221F5D511500007BCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3D91E01F5D4F9200007BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D91DF1F5D4F9200007BCF /* GWScanQr.app */,
+				FA3D91F81F5D4F9200007BCF /* GWScanQrTests.xctest */,
+				FA3D92031F5D4F9200007BCF /* GWScanQrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3D91E11F5D4F9200007BCF /* GWScanQr */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D92151F5D4FA600007BCF /* ScanQR */,
+				FA3D91E51F5D4F9200007BCF /* AppDelegate.h */,
+				FA3D91E61F5D4F9200007BCF /* AppDelegate.m */,
+				FA3D91E81F5D4F9200007BCF /* ViewController.h */,
+				FA3D91E91F5D4F9200007BCF /* ViewController.m */,
+				FA3D92291F5D518000007BCF /* GWQrVc.h */,
+				FA3D922A1F5D518000007BCF /* GWQrVc.m */,
+				FA3D91EB1F5D4F9200007BCF /* Main.storyboard */,
+				FA3D91EE1F5D4F9200007BCF /* Assets.xcassets */,
+				FA3D91F01F5D4F9200007BCF /* LaunchScreen.storyboard */,
+				FA3D91F31F5D4F9200007BCF /* Info.plist */,
+				FA3D91E21F5D4F9200007BCF /* Supporting Files */,
+			);
+			path = GWScanQr;
+			sourceTree = "<group>";
+		};
+		FA3D91E21F5D4F9200007BCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D91E31F5D4F9200007BCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA3D91FB1F5D4F9200007BCF /* GWScanQrTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D91FC1F5D4F9200007BCF /* GWScanQrTests.m */,
+				FA3D91FE1F5D4F9200007BCF /* Info.plist */,
+			);
+			path = GWScanQrTests;
+			sourceTree = "<group>";
+		};
+		FA3D92061F5D4F9200007BCF /* GWScanQrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D92071F5D4F9200007BCF /* GWScanQrUITests.m */,
+				FA3D92091F5D4F9200007BCF /* Info.plist */,
+			);
+			path = GWScanQrUITests;
+			sourceTree = "<group>";
+		};
+		FA3D92151F5D4FA600007BCF /* ScanQR */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D92161F5D4FA600007BCF /* GWQrFlashlightsManager.h */,
+				FA3D92171F5D4FA600007BCF /* GWQrFlashlightsManager.m */,
+				FA3D92181F5D4FA600007BCF /* GWScanCodeManager.h */,
+				FA3D92191F5D4FA600007BCF /* GWScanCodeManager.m */,
+				FA3D921A1F5D4FA600007BCF /* GWScanQr.h */,
+				FA3D921B1F5D4FA600007BCF /* GWScanQRvC.h */,
+				FA3D921C1F5D4FA600007BCF /* GWScanQRvC.m */,
+				FA3D921D1F5D4FA600007BCF /* SGQRCode.bundle */,
+			);
+			path = ScanQR;
+			sourceTree = "<group>";
+		};
+		FA3D92221F5D511500007BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D92271F5D512100007BCF /* ImageIO.framework */,
+				FA3D92251F5D511B00007BCF /* AVFoundation.framework */,
+				FA3D92231F5D511500007BCF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3D91DE1F5D4F9200007BCF /* GWScanQr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3D920C1F5D4F9200007BCF /* Build configuration list for PBXNativeTarget "GWScanQr" */;
+			buildPhases = (
+				FA3D91DB1F5D4F9200007BCF /* Sources */,
+				FA3D91DC1F5D4F9200007BCF /* Frameworks */,
+				FA3D91DD1F5D4F9200007BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWScanQr;
+			productName = GWScanQr;
+			productReference = FA3D91DF1F5D4F9200007BCF /* GWScanQr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3D91F71F5D4F9200007BCF /* GWScanQrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3D920F1F5D4F9200007BCF /* Build configuration list for PBXNativeTarget "GWScanQrTests" */;
+			buildPhases = (
+				FA3D91F41F5D4F9200007BCF /* Sources */,
+				FA3D91F51F5D4F9200007BCF /* Frameworks */,
+				FA3D91F61F5D4F9200007BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3D91FA1F5D4F9200007BCF /* PBXTargetDependency */,
+			);
+			name = GWScanQrTests;
+			productName = GWScanQrTests;
+			productReference = FA3D91F81F5D4F9200007BCF /* GWScanQrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3D92021F5D4F9200007BCF /* GWScanQrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3D92121F5D4F9200007BCF /* Build configuration list for PBXNativeTarget "GWScanQrUITests" */;
+			buildPhases = (
+				FA3D91FF1F5D4F9200007BCF /* Sources */,
+				FA3D92001F5D4F9200007BCF /* Frameworks */,
+				FA3D92011F5D4F9200007BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3D92051F5D4F9200007BCF /* PBXTargetDependency */,
+			);
+			name = GWScanQrUITests;
+			productName = GWScanQrUITests;
+			productReference = FA3D92031F5D4F9200007BCF /* GWScanQrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3D91D71F5D4F9200007BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ABB Genway Xiamen Electrical Equipment Co., Ltd";
+				TargetAttributes = {
+					FA3D91DE1F5D4F9200007BCF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 96TZBHNVU4;
+						ProvisioningStyle = Automatic;
+					};
+					FA3D91F71F5D4F9200007BCF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA3D91DE1F5D4F9200007BCF;
+					};
+					FA3D92021F5D4F9200007BCF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA3D91DE1F5D4F9200007BCF;
+					};
+				};
+			};
+			buildConfigurationList = FA3D91DA1F5D4F9200007BCF /* Build configuration list for PBXProject "GWScanQr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3D91D61F5D4F9200007BCF;
+			productRefGroup = FA3D91E01F5D4F9200007BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3D91DE1F5D4F9200007BCF /* GWScanQr */,
+				FA3D91F71F5D4F9200007BCF /* GWScanQrTests */,
+				FA3D92021F5D4F9200007BCF /* GWScanQrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3D91DD1F5D4F9200007BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D91F21F5D4F9200007BCF /* LaunchScreen.storyboard in Resources */,
+				FA3D91EF1F5D4F9200007BCF /* Assets.xcassets in Resources */,
+				FA3D91ED1F5D4F9200007BCF /* Main.storyboard in Resources */,
+				FA3D92211F5D4FA600007BCF /* SGQRCode.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3D91F61F5D4F9200007BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3D92011F5D4F9200007BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3D91DB1F5D4F9200007BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D922B1F5D518000007BCF /* GWQrVc.m in Sources */,
+				FA3D921E1F5D4FA600007BCF /* GWQrFlashlightsManager.m in Sources */,
+				FA3D91EA1F5D4F9200007BCF /* ViewController.m in Sources */,
+				FA3D91E71F5D4F9200007BCF /* AppDelegate.m in Sources */,
+				FA3D921F1F5D4FA600007BCF /* GWScanCodeManager.m in Sources */,
+				FA3D92201F5D4FA600007BCF /* GWScanQRvC.m in Sources */,
+				FA3D91E41F5D4F9200007BCF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3D91F41F5D4F9200007BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D91FD1F5D4F9200007BCF /* GWScanQrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3D91FF1F5D4F9200007BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D92081F5D4F9200007BCF /* GWScanQrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3D91FA1F5D4F9200007BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3D91DE1F5D4F9200007BCF /* GWScanQr */;
+			targetProxy = FA3D91F91F5D4F9200007BCF /* PBXContainerItemProxy */;
+		};
+		FA3D92051F5D4F9200007BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3D91DE1F5D4F9200007BCF /* GWScanQr */;
+			targetProxy = FA3D92041F5D4F9200007BCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3D91EB1F5D4F9200007BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3D91EC1F5D4F9200007BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3D91F01F5D4F9200007BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3D91F11F5D4F9200007BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3D920A1F5D4F9200007BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3D920B1F5D4F9200007BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3D920D1F5D4F9200007BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96TZBHNVU4;
+				INFOPLIST_FILE = GWScanQr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztyg.com.GWScanQr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA3D920E1F5D4F9200007BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96TZBHNVU4;
+				INFOPLIST_FILE = GWScanQr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztyg.com.GWScanQr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA3D92101F5D4F9200007BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWScanQrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztyg.com.GWScanQrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWScanQr.app/GWScanQr";
+			};
+			name = Debug;
+		};
+		FA3D92111F5D4F9200007BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWScanQrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztyg.com.GWScanQrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWScanQr.app/GWScanQr";
+			};
+			name = Release;
+		};
+		FA3D92131F5D4F9200007BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWScanQrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztyg.com.GWScanQrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWScanQr;
+			};
+			name = Debug;
+		};
+		FA3D92141F5D4F9200007BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWScanQrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztyg.com.GWScanQrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWScanQr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3D91DA1F5D4F9200007BCF /* Build configuration list for PBXProject "GWScanQr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3D920A1F5D4F9200007BCF /* Debug */,
+				FA3D920B1F5D4F9200007BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3D920C1F5D4F9200007BCF /* Build configuration list for PBXNativeTarget "GWScanQr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3D920D1F5D4F9200007BCF /* Debug */,
+				FA3D920E1F5D4F9200007BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA3D920F1F5D4F9200007BCF /* Build configuration list for PBXNativeTarget "GWScanQrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3D92101F5D4F9200007BCF /* Debug */,
+				FA3D92111F5D4F9200007BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA3D92121F5D4F9200007BCF /* Build configuration list for PBXNativeTarget "GWScanQrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3D92131F5D4F9200007BCF /* Debug */,
+				FA3D92141F5D4F9200007BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3D91D71F5D4F9200007BCF /* Project object */;
+}
